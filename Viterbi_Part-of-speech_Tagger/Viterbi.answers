@@ -1,0 +1,17 @@
+CIS 511 - Natural Language Processing
+Assignment 2
+
+Zihao Zhao
+
+Viterbi Part-of-speech Tagger
+
+How complete your program is. Even if your program is not complete or you are getting compilation errors, you will get partial credit proportionally. Just mention ​clearly and accurately​ how far you got.
+I completed the program.
+If your program is complete, the accuracy of your system on the test data
+The accuracy is 0.767
+If your program is complete, the accuracy of ​a simple baseline program (baseline.py) that assigns to each word its most frequent tag (according to the training data)
+The accuracy is 0.466
+If your program is complete, identify three errors in the automatically tagged data, and analyse them (i.e., for each error, write ​one brief sentence describing the possible reason for the error and how you think it could be fixed)
+P1: my model tends to predict NP instead of JJ, labeled:JJ,predicted:NP, maybe the reason is that I assign the unseen data to the first tagged data.
+P2:a lot of mistakes coming from labeled::,predicted:DT, maybe I did not correctly annotate the : symbol, I need to go through the preprocees again.
+P3: labeled:PP$,predicted:DT, those are the unseen data during training, this is the error we cannot avoid,I used 1e-5 as the probability to unseen data.

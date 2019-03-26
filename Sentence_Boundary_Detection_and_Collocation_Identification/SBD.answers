@@ -1,0 +1,27 @@
+CIS 511 - Natural Language Processing
+Assignment 
+
+Zihao Zhao
+
+Sentence Boundary Detection
+
+A ​brief​ ​description of your own three additional features
+
+feature_dict['RLength']: Length of L < 3 (values: binary)
+feature_dict['LCount']: The number of times this word appears in the Left. (values: numeric)
+feature_dict['RCount']: The number of times this word appears in the Right. (values: numeric)
+
+
+How complete your program is.
+
+I extracted all 8 features, finished pre-processing part. For the sklearn, I finished training and testing. For the unknown reason, the accuracy I got will be range from 0.88-0.93 if applying all 8 features. For the coding part, I think I fulfill all the requirements.
+
+
+The accuracy of your system on the test data using all eight features (core + your own).
+Accuracy: 0.9013142174432497
+
+The accuracy of your system on the test data using only the five core features from the class.
+Accuracy: 0.9890083632019115
+
+The accuracy of your system on the test data using only your own three additional features.
+Accuracy: 0.5774193548387097

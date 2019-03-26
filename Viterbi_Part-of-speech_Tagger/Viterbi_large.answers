@@ -1,0 +1,13 @@
+CIS 511 - Natural Language Processing
+Assignment 2
+
+Zihao Zhao
+
+Training on Large Data
+
+How complete your program is. Even if your program is not complete or you are getting compilation errors, you will get partial credit proportionally. Just mention ​clearly and accurately​ how far you got.
+I completed the program, but it might have error in the sequence identification process and the strategy I used to deal with unseen data(I used 1e-5).
+If your program is complete, the accuracy of your system on the test data
+The accuracy is 0.758
+If your program is complete, the accuracy of ​a simple baseline that assigns to each word itsmost frequent tag (according to the ​large​ training data)
+The accuracy is 0.749

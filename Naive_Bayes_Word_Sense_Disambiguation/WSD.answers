@@ -1,0 +1,107 @@
+CIS 511 - Natural Language Processing
+Assignment 3
+
+Zihao Zhao
+
+Naive Bayes Word Sense Disambiguation
+
+*How complete your program is. 
+I completed the program.
+
+plant.wsd
+
+*If your program is complete, the accuracies of your Naive Bayes system for ​each of the five folds, as well as the ​average​ accuracy.
+plant.wsd
+Testing Fold1......
+Correct:28, Total:38, Accuracy:0.7368
+Testing Fold2......
+Correct:26, Total:38, Accuracy:0.6842
+Testing Fold3......
+Correct:20, Total:38, Accuracy:0.5263
+Testing Fold4......
+Correct:30, Total:38, Accuracy:0.7895
+Testing Fold5......
+Correct:10, Total:36, Accuracy:0.2778
+Avg accuracy:0.6029
+
+*If your program is complete, identify three errors in the automatically sense tagged data,and analyse them (i.e., for each error, write ​one brief sentence describing the possible reason for the error and how it could be fixed)
+
+plant.1000161 true:factory, predict:living: Not enough words related to factory, we need to increase the weights of most frequent words in each classes.
+
+plant.1000152 true:factory, predict:living: the words like 'sky', 'working' and 'torches' are more related to living. We'd better use a stop word list.
+
+plant.1000144 true:factory, predict:living: since the sentence is too long and so many noises will affect the result of predictions. We could only use part of sentence instead of the whole sentence.
+
+
+Additional Word Sense Disambiguation Experiments
+
+*How complete your program is. 
+I completed the program.
+
+bass.wsd, crane.wsd, motion.wsd, palm.wsd, tank.wsd
+
+*If your program is complete, the accuracies of your Naive Bayes system for each of the five folds, as well as the average accuracy.
+bass.wsd
+Testing Fold1......
+Correct:15, Total:21, Accuracy:0.7143
+Testing Fold2......
+Correct:19, Total:21, Accuracy:0.9048
+Testing Fold3......
+Correct:20, Total:21, Accuracy:0.9524
+Testing Fold4......
+Correct:20, Total:21, Accuracy:0.9524
+Testing Fold5......
+Correct:22, Total:23, Accuracy:0.9565
+Avg accuracy:0.8961
+
+tank.wsd
+Testing Fold1......
+Correct:21, Total:40, Accuracy:0.5250
+Testing Fold2......
+Correct:30, Total:40, Accuracy:0.7500
+Testing Fold3......
+Correct:31, Total:40, Accuracy:0.7750
+Testing Fold4......
+Correct:29, Total:40, Accuracy:0.7250
+Testing Fold5......
+Correct:14, Total:41, Accuracy:0.3415
+Avg accuracy:0.6233
+
+palm.wsd
+Testing Fold1......
+Correct:25, Total:40, Accuracy:0.6250
+Testing Fold2......
+Correct:29, Total:40, Accuracy:0.7250
+Testing Fold3......
+Correct:26, Total:40, Accuracy:0.6500
+Testing Fold4......
+Correct:31, Total:40, Accuracy:0.7750
+Testing Fold5......
+Correct:31, Total:41, Accuracy:0.7561
+Avg accuracy:0.7062
+
+crane.wsd
+Testing Fold1......
+Correct:13, Total:19, Accuracy:0.6842
+Testing Fold2......
+Correct:13, Total:19, Accuracy:0.6842
+Testing Fold3......
+Correct:14, Total:19, Accuracy:0.7368
+Testing Fold4......
+Correct:15, Total:19, Accuracy:0.7895
+Testing Fold5......
+Correct:16, Total:19, Accuracy:0.8421
+Avg accuracy:0.7474
+
+motion.wsd
+Testing Fold1......
+Correct:20, Total:40, Accuracy:0.5000
+Testing Fold2......
+Correct:22, Total:40, Accuracy:0.5500
+Testing Fold3......
+Correct:36, Total:40, Accuracy:0.9000
+Testing Fold4......
+Correct:31, Total:40, Accuracy:0.7750
+Testing Fold5......
+Correct:32, Total:41, Accuracy:0.7805
+Avg accuracy:0.7011

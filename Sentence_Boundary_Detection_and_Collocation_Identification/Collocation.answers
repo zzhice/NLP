@@ -1,0 +1,17 @@
+CIS 511 - Natural Language Processing
+Assignment 1
+
+Zihao Zhao
+
+Collocation identification
+
+How complete your program is.
+I finished calculating chi-square score and PMI score. For the coding part, I think I fulfill all the requirements.
+Top 20 bigrams along with their chi-​square scores, in reverse order of the scores
+[('New York', 1725350521.6763892), ('Hong Kong', 1309109400.0000687), ('Navigation Mixte', 615805008.0000459), ("wo n't", 472357648.00050414), ('Los Angeles', 432994917.3334709), ('Du Pont', 402158400.00002295), ('Sea Containers', 293589504.00004584), ('Costa Rica', 254490768.00004584), ('San Francisco', 216497214.6669417), ('Burnham Lambert', 201777352.00002292), ("ca n't", 183306528.00050417), ('Wall Street', 176728770.00164998), ('Freddie Mac', 117994344.00002293), ('Stock Exchange', 113310984.6378081), ('Fannie Mae', 113106960.00004585), ('Dow Jones', 110372922.53259574), ('Lehman Hutton', 75404448.00027502), ('COMMERCIAL PAPER', 69819120.00002293), ('Bear Stearns', 69819120.00002293), ('Learning Materials', 69819120.00002293)]
+Top 20 bigrams along with their PMI scores, in reverse order of the scores
+
+[('Hong Kong', 11.53216180586817), ('Du Pont', 11.491339811347915), ('Navigation Mixte', 11.357808418723392), ('Burnham Lambert', 11.146499325056185), ('Sea Containers', 10.987434630426499), ('Costa Rica', 10.915975666444353), ('Freddie Mac', 10.878235338461506), ('Los Angeles', 10.632400375945226), ('COMMERCIAL PAPER', 10.615871073994015), ('Bear Stearns', 10.615871073994015), ('Learning Materials', 10.615871073994015), ('Fannie Mae', 10.510510558336188), ('whooping cough', 10.259196130055283), ('Johns Hopkins', 10.259196130055283), ('Banco Exterior', 10.18508815790156), ('Bare-Faced Messiah', 10.105045450228024), ('Hang Seng', 10.105045450228024), ('Polly Peck', 10.105045450228024), ('Aga Khan', 10.105045450228024), ("wo n't", 10.02626457237491)]
+A ​brief ​discussion of which of the two measures you believe works better to identify collocations, based on your analysis of the top 20 bigrams produced by each measure.
+
+Based on the result, I think PMI works better because it looks more reasonable to me because it generate more convicing bigrams to me. Like places or oral cases.(whooping cough)
