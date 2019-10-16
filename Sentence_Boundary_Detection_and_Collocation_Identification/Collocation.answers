@@ -12,6 +12,4 @@ Top 20 bigrams along with their chi-​square scores, in reverse order of the sc
 Top 20 bigrams along with their PMI scores, in reverse order of the scores
 
 [('Hong Kong', 11.53216180586817), ('Du Pont', 11.491339811347915), ('Navigation Mixte', 11.357808418723392), ('Burnham Lambert', 11.146499325056185), ('Sea Containers', 10.987434630426499), ('Costa Rica', 10.915975666444353), ('Freddie Mac', 10.878235338461506), ('Los Angeles', 10.632400375945226), ('COMMERCIAL PAPER', 10.615871073994015), ('Bear Stearns', 10.615871073994015), ('Learning Materials', 10.615871073994015), ('Fannie Mae', 10.510510558336188), ('whooping cough', 10.259196130055283), ('Johns Hopkins', 10.259196130055283), ('Banco Exterior', 10.18508815790156), ('Bare-Faced Messiah', 10.105045450228024), ('Hang Seng', 10.105045450228024), ('Polly Peck', 10.105045450228024), ('Aga Khan', 10.105045450228024), ("wo n't", 10.02626457237491)]
-A ​brief ​discussion of which of the two measures you believe works better to identify collocations, based on your analysis of the top 20 bigrams produced by each measure.
 
-Based on the result, I think PMI works better because it looks more reasonable to me because it generate more convicing bigrams to me. Like places or oral cases.(whooping cough)
